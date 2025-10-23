@@ -14,3 +14,22 @@ if (myGrade >= 90){
 } else {
     console.log("F")
 }
+/////////////////////////////////////////////
+// switches go down the order until it hits the imnput value that is assigned to the variable, in this case it will execute at case 4
+let myNumber = 4
+switch(myNumber){
+    case 1: console.log("input is 1")
+        break; // break inbetween cases allows it to follow each step accordingly
+    case 2: console.log("input is 2")
+        break;
+    case 3: console.log("input is 3")
+        break;
+    case 4: console.log("input is 4") // this line will execute
+            break;
+    case 5: console.log("input is 5")
+        break;
+    default: console.log("input is not between 1-5.");
+        break;
+}
+///////////////////////////////////////////
+
