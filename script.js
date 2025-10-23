@@ -33,8 +33,9 @@ switch(myNumber){
 }
 // To me the switch format is a lot easier for me to read, it is broken into a step by step view over the if, else.
 ///////////////////////////////////////////
-
+// for loop will loop until it reaches the number 15 and will move on after. i represents the number 1
 for (let i = 1; i < 15; i++){
     console.log(i)
 }
+// not sure how to have it show the odd numbers as !
 
