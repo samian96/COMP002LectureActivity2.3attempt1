@@ -31,5 +31,10 @@ switch(myNumber){
     default: console.log("input is not between 1-5.");
         break;
 }
+// To me the switch format is a lot easier for me to read, it is broken into a step by step view over the if, else.
 ///////////////////////////////////////////
+
+for (let i = 1; i < 15; i++){
+    console.log(i)
+}
 
